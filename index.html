@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Real-Time Weather</h1>
+        <div class="weather-card">
+          <h2 id="location">Location</h2>
+          <div class="weather-info">
+            <div class="temperature" id="temperature">--°C</div>
+            <div class="description" id="description">--</div>
+          </div>
+          <img id="weather-icon-image" src="" alt="">
+          <div class="location-dropdown">
+            <label for="location-dropdown">Select Location:</label>
+            <select id="location-dropdown">
+              <option value="">-- Select --</option>
+            </select>
+            <button id="get-weather-button">Get Weather</button>
+          </div>
+        </div>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
